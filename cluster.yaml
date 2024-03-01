@@ -10,7 +10,7 @@ vpc:
  ap-southeast-1b : { id: subnet-0a079b175239171ae }
  ap-southeast-1c : { id: subnet-024373a5351a4af15 }
 nodeGroups:
- - name: <SET YOUR WORKER NODE GROUP NAME HERE. e.g. jazeel-worker-ng>
+ - name: sagar-cluster-for-kubernetes
  labels: { role: workers }
  instanceType: t3.small
  desiredCapacity : 
