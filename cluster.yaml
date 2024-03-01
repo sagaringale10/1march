@@ -1,7 +1,7 @@
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
- name: sagar-cluster-for-kubernetes
+ name: sagar-eks-cluster-kubernetes
  region: ap-southeast-1
 vpc:
  subnets:
@@ -10,7 +10,7 @@ vpc:
  ap-southeast-1b : { id: subnet-0a079b175239171ae }
  ap-southeast-1c : { id: subnet-024373a5351a4af15 }
 nodeGroups:
- name: sagar-cluster-for-kubernetes
+ - name: sagar-eks-cluster-kubernetes
  labels: { role: workers }
  instanceType: t3.small
- desiredCapacity : 
+ desiredCapacity : 1
