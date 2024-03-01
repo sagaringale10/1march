@@ -16,4 +16,4 @@ spec:
         - name: hello-kubernetes
           image: paulbouwer/hello-kubernetes:1.5
           ports:
-        - containerPort: 8080
+          - containerPort: 8080
